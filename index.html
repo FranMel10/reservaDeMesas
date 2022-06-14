@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Traducciones - Society SVC</title>
+<link rel="shortcut icon" href="images/logo.png" />
+<link href="css/translationstyle.css" rel="stylesheet" type="text/css">
+	<link href="css/stygms.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+		<h1 id="contactext"><a name="contacto">REPUBLIK BAR</a></h1>
+	<br/>
+	<div id="contacmap">
+	<!----web form---->
+	<form class="form-container2"  action="enviar.php" method="post" enctype="multipart/form-data" target="_self">
+<h2 id="contactformcntr">Reserva de mesas<br/></h2><br/>
+<h2 id="contactformcntr">Por favor ingresa tus datos y para cuantas personas necesita su mesa<br/></h2><br/>
+<input class="form-field" type="text" name="nombre" placeholder="Nombre" required>	<br/>
+<input class="form-field" type="text" name="correo" placeholder="Correo Electr&oacute;nico" required><br/>
+<input class="form-field" type="text" name="telefono" placeholder="Tel&eacute;fono"><br/>
+<!--<input class="form-field" type="file" name="adjunto" accept=".pdf, .jpg, .png, .docx" multiple/>-->
+<textarea class="form-field" name="mensaje" placeholder="Escriba su mensaje aqu&iacute;"></textarea><br/>
+
+<select name="mesa" id="mesa">
+	<option value="2 Personas">Mesa para 2</option>
+	<option value="4 Personas">Mesa para 4</option>
+	<option value="6 Personas">Mesa para 6</option>
+  </select>
+
+<input class="submit-button" type="submit" value="ENVIAR" id="boton">
+</form>
+	
+</body>
+</html>
